@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "name": "Alter WebPage",
+    "icons": {
+        "128": "logo.jpg"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}

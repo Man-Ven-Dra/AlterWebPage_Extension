@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: linear-gradient(to right, #1e59b8, #8c80ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* Remove default margin */
+    color:rgb(225, 225, 228);
+    padding: 0;
+  }
